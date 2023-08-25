@@ -1,9 +1,11 @@
-import { Form } from './Form';
+import { Form } from './form/Form';
 
 export const HomePage = () => {
   return (
-    <div className="container mx-auto py-[25vh] w-[90%] max-w-[734px] h-screen">
-      <div className="text-sm font-medium bg-white rounded-2xl">
+    /* Main Wrapper */
+    <div className="container mx-auto py-[25vh] w-[96%] max-w-[834px] h-screen lg:w-[90%]">
+      {/* Content Wrapper */}
+      <div className="text-sm font-medium bg-white drop-shadow-2xl rounded-2xl lg:text-base">
         <Form />
       </div>
     </div>
